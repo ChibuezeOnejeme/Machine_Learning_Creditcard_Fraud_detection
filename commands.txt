@@ -1,0 +1,2 @@
+This command is used to activate celery
+$ celery -A app.celery worker --pool=solo -l info  -E   
